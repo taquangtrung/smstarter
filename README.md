@@ -1,13 +1,22 @@
+Spacemacs Starter Kit
+-----------------------
+
 # Getting started
 
-- Firstly, copy the configuration file `.spacemacs` to your home directory,
-  and add/remove suitable configuration layers and packages.
+- Firstly, clone this repository and rename it to `~/.emacs.d/private`, where
+  `.emacs.d` is the directory containing Spacemacs.
+
+- Then, copy the configuration file `.spacemacs` to your home directory
 
   ```
   cp .spacemacs ~/.spacemacs
   ```
 
-- Then, run Emacs and choose the suitable editing mode (Emacs or Vim).
+- Add necessary configuration layers into the file `.spacemacs` by modifying the
+  lists of configuration layers `dotspacemacs-configuration-layers`
+  and packages `dotspacemacs-additional-packages`.
+
+- Finally, run Emacs and choose the suitable editing mode (Emacs or Vim).
 
 # Customize your Emacs
 
@@ -29,8 +38,8 @@
 - Then enter the name of your configuration in the prompt.
 
 - A directory named after the created configuration layer will be created here
-  along with template files within it (packages.el and extensions.el, more info
-  on the meaning of those files can be found in the [documentation][https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#extensions-and-packages]).
+  along with template files within it (packages.el and extensions.el), more info
+  on the meaning of those files can be found in the [documentation](https:/dotspacemacs-additional-packages/github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#extensions-and-packages).
 
 - Each created file has further guidance written in them.
 
